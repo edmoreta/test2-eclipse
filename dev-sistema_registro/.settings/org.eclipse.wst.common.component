@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dev-sistema_registro">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="dev-sistema_registroWeb.war" deploy-path="/" handle="module:/resource/dev-sistema_registroWeb/dev-sistema_registroWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dev-sistema_registroEJB.jar" deploy-path="/" handle="module:/resource/dev-sistema_registroEJB/dev-sistema_registroEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
